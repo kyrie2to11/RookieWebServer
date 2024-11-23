@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/buffer/buffer.cpp.o -c /home/jarvis/repos/RookieWebServer/src/buffer/buffer.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/buffer/buffer.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/http/http_conn.cpp.o -c /home/jarvis/repos/RookieWebServer/src/http/http_conn.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/http/http_conn.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/http/http_request.cpp.o -c /home/jarvis/repos/RookieWebServer/src/http/http_request.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/http/http_request.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/http/http_response.cpp.o -c /home/jarvis/repos/RookieWebServer/src/http/http_response.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/http/http_response.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/log/log.cpp.o -c /home/jarvis/repos/RookieWebServer/src/log/log.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/log/log.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/main.cpp.o -c /home/jarvis/repos/RookieWebServer/src/main.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/main.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/pool/sqlconn_pool.cpp.o -c /home/jarvis/repos/RookieWebServer/src/pool/sqlconn_pool.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/pool/sqlconn_pool.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/server/epoller.cpp.o -c /home/jarvis/repos/RookieWebServer/src/server/epoller.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/server/epoller.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/server/webserver.cpp.o -c /home/jarvis/repos/RookieWebServer/src/server/webserver.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/server/webserver.cpp"
+},
+{
+  "directory": "/home/jarvis/repos/RookieWebServer/build",
+  "command": "/usr/bin/c++    -O2 -g -O0 -g -std=c++14 -o CMakeFiles/server.dir/src/timer/heap_timer.cpp.o -c /home/jarvis/repos/RookieWebServer/src/timer/heap_timer.cpp",
+  "file": "/home/jarvis/repos/RookieWebServer/src/timer/heap_timer.cpp"
+}
+]

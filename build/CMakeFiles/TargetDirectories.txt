@@ -1,0 +1,3 @@
+/home/jarvis/repos/RookieWebServer/build/CMakeFiles/server.dir
+/home/jarvis/repos/RookieWebServer/build/CMakeFiles/edit_cache.dir
+/home/jarvis/repos/RookieWebServer/build/CMakeFiles/rebuild_cache.dir
