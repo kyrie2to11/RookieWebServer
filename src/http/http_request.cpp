@@ -227,7 +227,7 @@ bool httpRequest::userVerify_(const std::string& name, const std::string& passwd
         LOG_INFO("Register success!");
         return true;
     }
-    sqlConnPool::getInstance()->freeConn(sql);
+    // sqlConnPool::getInstance()->freeConn(sql); 因为 sqlConnRAII 析构函数中调用了freeConn
     return true;
 }
 

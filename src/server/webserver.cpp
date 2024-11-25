@@ -5,12 +5,12 @@ webServer::webServer(
         int port, int trigMode, int timeoutMS,
         int sqlPort, const char* sqlUser, const char* sqlPasswd,
         const char* dbName, int connPoolNum, int threadPoolNum,
-        bool openLog, int logLevel, int logQueSize):
+        bool openLog, int logLevel, bool isAsync):
         port_(port), timeoutMS_(timeoutMS), isClose_(false),
         timer_(new heapTimer()), threadpool_(new threadPool(threadPoolNum)), epoller_(new Epoller()) {
         // 是否打开日志
         if(openLog) {
-            Log::getInstance()->init(logLevel, "./webserver_log", ".log", logQueSize);
+            Log::getInstance()->init(logLevel, "./webserver_log", ".log", isAsync);
 
             srcDir_ = getcwd(nullptr, 256);
             assert(srcDir_);

@@ -33,7 +33,7 @@ private:
     sem_t semId_; // 信号量
 };
 
-/* 资源在对象构造初始化 资源在对象析构时释放*/
+/* 资源在对象构造时初始化 资源在对象析构时释放*/
 class sqlConnRAII {
 public:
     sqlConnRAII(MYSQL** sql, sqlConnPool* connpool) {

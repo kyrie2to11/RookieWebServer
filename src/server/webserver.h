@@ -23,7 +23,7 @@ public:
         int port, int trigMode, int timeoutMS,
         int sqlPort, const char* sqlUser, const char* sqlPasswd,
         const char* dbName, int connPoolNum, int threadNum,
-        bool openLog, int logLevel, int logQueSize
+        bool openLog, int logLevel, bool isAsync
     );
     ~webServer();
     void start();
